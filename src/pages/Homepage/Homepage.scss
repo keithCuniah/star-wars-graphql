@@ -1,0 +1,39 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  gap: 2em;
+  .img-container {
+    display: flex;
+    justify-content: center;
+    svg {
+      width: 15em;
+      .star-wars {
+        fill: transparent;
+        stroke-width: 2px;
+        stroke-dashoffset: -2000;
+        stroke-dasharray: 2000;
+        animation: dash 2s forwards alternate;
+      }
+    }
+  }
+  .carousel-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+}
+
+//animation
+@keyframes dash {
+  0% {
+    stroke-dashoffset: -2000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    stroke: var(--clr-yellow);
+    width: 0;
+  }
+}

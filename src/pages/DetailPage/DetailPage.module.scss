@@ -1,0 +1,33 @@
+.detail-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+  .btn-area {
+    display: flex;
+    width: 100%;
+  }
+}
+
+.backBtn {
+  all: unset;
+  cursor: pointer;
+  text-shadow: 0 0 0.25em var(--clr-white);
+  color: var(--clr-black);
+  padding: 0.25em 1em;
+  &:hover {
+    text-shadow: 0 0 0.25em currentColor;
+    color: var(--clr-red);
+    animation: fade 1s forwards;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+    color: var(--clr-red);
+  }
+}
