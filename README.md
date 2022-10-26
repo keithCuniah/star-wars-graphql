@@ -10,8 +10,11 @@ A react-graphql app in react and typescript which communicate with https://githu
 
 # Note 
 External plugin : 
+
 1/ carousel : https://www.npmjs.com/package/react-responsive-carousel
+
 2/ pagination : https://www.npmjs.com/package/react-paginate
+
 3/ graphql and graphql client server : https://www.apollographql.com/docs/react/
 
 Bug :
