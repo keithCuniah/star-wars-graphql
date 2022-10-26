@@ -2,7 +2,7 @@
 A react-graphql app in react and typescript which communicate with https://github.com/graphql/swapi-graphql
 
 # Getting started with Star wars react app
-1/ Clone the swapi-graphql app and start the app
+1/ Clone the swapi-graphql app (https://github.com/graphql/swapi-graphql) and start the app
 2/ Report the port of the swapi-graphql into the App.tsx from star-wars-graphql app line 30
 3/ Start the client server and go to the corresponding port
 
